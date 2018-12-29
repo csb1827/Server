@@ -67,5 +67,5 @@ class Client:
                 return {}
 
 
-class ClientError(socket.error):
+class ClientError(Exception):
     pass
